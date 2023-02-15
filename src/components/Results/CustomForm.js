@@ -3,7 +3,7 @@ import { useEffect } from "react"
 import Loading from "../Loading"
 
 function CustomForm({ status, message, onValidated }) {
-  const [email, setEmail] = useState(email ? email : "")
+  const [email, setEmail] = useState("")
   const [error, setError] = useState("")
   const [success, setSuccess] = useState("")
 
