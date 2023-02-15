@@ -1,0 +1,381 @@
+.headerTitle {
+  font-size: 4vh;
+  font-family: "VAGRounded-Light";
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 2px;
+}
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  margin: 0;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.ctaButton {
+  font-size: 2vh;
+  font-family: "VAGRounded-Light";
+  font-weight: 800;
+  width: 100%;
+  height: 6vh;
+  border: 0px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 32px;
+  background-color: white;
+}
+.budgetInput {
+  font-size: 2vh;
+  font-family: "VAGRounded-Light";
+  font-weight: 800;
+  width: 40%;
+  min-height: 3vh;
+  border: 0px;
+  border-radius: 12px;
+  padding: 8px;
+}
+.firstSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 40vh;
+  padding: 24px;
+  overflow: hidden;
+}
+.secondSection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: "#D8D1D2";
+}
+
+.secondMain {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  min-width: 100vw;
+  width: 100vw;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: #d8d1d2;
+}
+
+.secondMainFirst {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+  align-items: center;
+  background-color: #d8d1d2;
+  justify-content: flex-start;
+  background: url(../../static/images/couchPic.png);
+  background-size: 100% 100%;
+}
+
+.secondMainSecond {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.secondMainTitle {
+  width: 60%;
+  font-size: 4.5vh;
+  font-family: "VAGRounded-Light";
+  font-weight: 800;
+  text-align: start;
+}
+.checkBoxDiv {
+  display: flex;
+  width: 25%;
+  justify-content: space-evenly;
+}
+.labelsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.labelDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.checkBoxStyle {
+  height: 4vh;
+  width: 4vh;
+}
+.labelText {
+  font-size: 2.5vh;
+  font-family: "VAGRounded-Light";
+  font-weight: 800;
+  text-align: start;
+  margin-bottom: 24px;
+}
+
+.furnitureButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  width: 7vh;
+  height: 7vh;
+  margin-right: 16px;
+  cursor: pointer;
+  background-color: white;
+}
+.furnitureIcon {
+  margin-bottom: 4px;
+  width: auto;
+  height: auto;
+}
+.furnitureButtonPressed {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  width: 7vh;
+  height: 7vh;
+  margin-right: 16px;
+  background-color: #d8d1d2;
+  cursor: pointer;
+}
+
+.furnitureButtonRow {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 32px;
+}
+
+.thirdSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.thirdMain {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.thirdMainFirst {
+  padding-left: 4vh;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  background: url(../../static/images/chairBackground.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.thirdMainSecond {
+  display: flex;
+  width: 30%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: url(../../static/images/singleChair.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.calculateTitle {
+  width: 50%;
+  font-size: 3vh;
+  font-family: "VAGRounded-Light";
+  font-weight: 800;
+  text-align: start;
+}
+
+.calculationText {
+  width: 50%;
+  font-size: 2vh;
+  font-family: "VAGRounded-Light";
+  text-align: start;
+}
+
+.calculateLabelDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .ctaButton {
+    font-size: 2vh;
+    font-family: "VAGRounded-Light";
+    font-weight: 800;
+    width: 100%;
+    height: 6vh;
+    border: 0px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 32px;
+  }
+  .secondMain {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #d8d1d2;
+  }
+  .thirdSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  .secondMainSecond {
+    display: flex;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .secondSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 24px;
+  }
+  .secondMainFirst {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .thirdMainFirst {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    background: url(../../static/images/chairBackground.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .thirdMainSecond {
+    display: flex;
+    display: none;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: url(../../static/images/singleChair.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .calculateTitle {
+    width: 100%;
+    font-size: 3vh;
+    font-family: "VAGRounded-Light";
+    font-weight: 800;
+    text-align: start;
+  }
+  .secondMainTitle {
+    width: 80%;
+    font-size: 4vh;
+    font-family: "VAGRounded-Light";
+    font-weight: 800;
+    text-align: center;
+  }
+  .thirdMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+  }
+  .firstMain {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: url(../../static/images/couch.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .furnitureButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    width: 8vh;
+    height: 8vh;
+    margin-right: 16px;
+    cursor: pointer;
+  }
+
+  .furnitureButtonPressed {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    width: 8vh;
+    height: 8vh;
+    margin-right: 16px;
+    background-color: #d8d1d2;
+    cursor: pointer;
+  }
+}
