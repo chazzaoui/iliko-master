@@ -137,7 +137,7 @@ export default function Home() {
       newFurniture[item] = price
     })
     // console.log(newFurniture);
-    
+
     setCalculatedFurniture({ ...newFurniture })
 
     const furnitureAverageObj = Object.keys(averagesArray[selectedFurniture])
@@ -181,12 +181,13 @@ export default function Home() {
     setCheaperFurniture(cheaper)
     setClosestFurniture(closest)
     setCostlierFurniture(costlier)
-
-    const elem = document.getElementById("resultsDiv")
-    elem.scrollIntoView()
-    setTimeout(() => {
-      setLoading(false)
-    }, 1700)
+    if (document !== undefined) {
+      const elem = document.getElementById("resultsDiv")
+      elem.scrollIntoView()
+      setTimeout(() => {
+        setLoading(false)
+      }, 1700)
+    }
   }
 
   return (

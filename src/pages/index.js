@@ -191,12 +191,13 @@ function Home() {
     setClosestFurniture(closest)
     setCostlierFurniture(costlier)
     setCalculated(true)
-
-    const elem = document.getElementById("resultsDiv")
-    elem.scrollIntoView()
-    setTimeout(() => {
-      setLoading(false)
-    }, 1700)
+    if (document !== undefined) {
+      const elem = document.getElementById("resultsDiv")
+      elem.scrollIntoView()
+      setTimeout(() => {
+        setLoading(false)
+      }, 1700)
+    }
   }
 
   return (
