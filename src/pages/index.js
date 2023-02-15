@@ -71,7 +71,7 @@ const averagesArray = {
   },
 }
 
-function Home() {
+const Home = () => {
   const [furniture, setFurniture] = React.useState([])
   const [budget, setBudget] = React.useState("")
   const [loading, setLoading] = React.useState(false)
